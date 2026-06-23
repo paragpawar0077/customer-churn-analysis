@@ -18,9 +18,8 @@ retention recommendations.
 - **Target variable:** Churn (Yes/No)
 
 ## Project Structure
-
+```
 customer-churn-analysis/
-
 ├── data/
 │   ├── raw/               # Original dataset
 │   └── processed/         # Cleaned dataset
@@ -31,8 +30,10 @@ customer-churn-analysis/
 ├── sql/
 │   └── churn_analysis_queries.sql
 ├── dashboard/
-│   └── customer-churn-dashboard.pbix
+│   ├── customer-churn-dashboard.pbix
+│   └── customer-churn.png
 └── README.md
+```
 
 ## Part 1 — Python Analysis & ML Model
 
